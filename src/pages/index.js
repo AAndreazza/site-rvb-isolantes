@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 const Index = () => {
     return(
-        <h1>Modelo básico para cada componente</h1>
+        <div>
+        <Hero></Hero>
+        </div>
     )
 }
 

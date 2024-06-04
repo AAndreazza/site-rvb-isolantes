@@ -1,5 +1,5 @@
 {
-  "name": "site-rvg-isolantes",
+  "name": "site-rvb-isolantes",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,7 +18,9 @@
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
