@@ -3,8 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from './Header';
-import Banner1 from "../images/banner1.jpg"
-import Banner2 from "../images/banner2.jpg"
 
 const Hero = () => {
     const settings = {
@@ -26,10 +24,10 @@ const Hero = () => {
             <div className="slider-container">
                 <Slider {...settings}>
                     <div>
-                        <img src={Banner1} alt=' ' className='h-full w-full object-cover' />
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt=' ' className='h-full w-full object-cover' />
                     </div>
                     <div>
-                        <img src={Banner2} alt=' ' className='h-full w-full object-cover' />
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt=' ' className='h-full w-full object-cover' />
                     </div>
                 </Slider>
             </div>
