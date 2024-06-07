@@ -1,13 +1,11 @@
 import React from 'react'
-import P1 from '../images/p1.jpg'
-import P2 from '../images/p2.jpg'
-import P3 from '../images/p3.jpg'
-import P4 from '../images/p4.jpg'
-import P5 from '../images/p5.jpg'
-import P6 from '../images/p6.jpg'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Banner from '../images/bannerProduto.jpg'
+import P2 from '../../images/p2.jpg'
+import P3 from '../../images/p3.jpg'
+import P4 from '../../images/p4.jpg'
+import P5 from '../../images/p5.jpg'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
+import Banner from '../../images/bannerProduto.jpg'
 
 const conteudos = [
     {
@@ -35,18 +33,6 @@ const conteudos = [
         slug: '/teste4'
     },
     {
-        imagem: P6,
-        nome: 'BLINDAGEM ELETROSTÁTICA',
-        descricao: 'Fabricamos blindagens eletrostáticas, para transformadores de grande e pequeno porte. São blindagens feitas em cobre isolado,…',
-        slug: '/teste6'
-    },
-    {
-        imagem: '',
-        nome: 'CALÇOS DE MADEIRA COMUM',
-        descricao: 'Fabricamos também diversos materiais em madeira densificada ou madeira comum (Angelin), utilizados em transformadores de pequeno…',
-        slug: '/teste5'
-    },
-    {
         imagem: '',
         nome: 'CALÇOS DE PRESSPAN',
         descricao: 'Os calços são fabricados em papelão de média ou alta densidade, incluindo a execução de detalhes como raios para encaixe…',
@@ -62,12 +48,6 @@ const conteudos = [
         imagem: '',
         nome: 'CILINDROS DE BOBINAGEM',
         descricao: 'Temos uma estrutura montada para fabricação de cilindros, sendo cilindros base de bobina, montagens de bloco, cilindros…',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
-        nome: 'CILINDROS DE DISTRIBUIÇÃO E MEIA FORÇA',
-        descricao: 'Fabricamos cilindros para transformadores de pequeno porte, para núcleos enrolado e empilhado. Temos cilindros planos, com…',
         slug: '/teste5'
     },
     {
@@ -90,18 +70,6 @@ const conteudos = [
     },
     {
         imagem: '',
-        nome: 'ESPAGUETE',
-        descricao: 'Fabricamos também itens específicos, como espaguetes isolantes ou canudos, em diversos diâmetros, espessuras de papel e…',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
-        nome: 'ESTECAS / TALAS DE DISTRIBUIÇÃO E MEIA FORÇA',
-        descricao: 'Fabricamos diferentes tipos de estecas / talas para transformadores de pequeno porte. Estecas em papelões de média densidade,…',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
         nome: 'ESTECAS / TALAS DE FORÇA E MÉDIA FORÇA',
         descricao: 'Fabricamos estecas, talas para bobinas, para montagem dos enrolamentos, para materiais de núcleo. Temos como largura…',
         slug: '/teste5'
@@ -120,26 +88,8 @@ const conteudos = [
     },
     {
         imagem: '',
-        nome: 'PAPÉIS EM ROLO',
-        descricao: 'Trabalhamos com estoque de dois tipos de papéis, kraft neutro e diamantado termoestabilizado. Em diversas espessuras…',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
         nome: 'PROTEÇÃO DE PASSAGEM',
         descricao: 'Normalmente fabricadas em papelão de 1mm ou papel em 0,50mm de espessura, porém temos disponibilidade de fabricação em…',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
-        nome: 'SETOR ANEL E SETOR CAPA MOLDADO',
-        descricao: 'Este é o texto do setor anel e setor capa moldado do cadastro de produtos',
-        slug: '/teste5'
-    },
-    {
-        imagem: '',
-        nome: 'SUPORTE DE LIGAÇÃO',
-        descricao: 'Fabricamos diversos tipos de materiais isolantes que compõe os transformadores de pequeno porte, como cabeceiras, suportes…',
         slug: '/teste5'
     },
     {
@@ -150,18 +100,18 @@ const conteudos = [
     },
 ]
 
-const Produtos = () => {
+const MediaForcaEForca = () => {
     return (
         <div className='bg-[#041537]'>
 
             <div className='relative py-32 sm:py-56'>
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>PRODUTOS</h2>
-                <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>CONFIRA O CATÁLOGO</p>
+                <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>MÉDIA FORÇA E FORÇA</p>
                 <Header></Header>
             </div>
 
-            <h1 className='mt-20 xl:ml-24 ml-10 text-left text-[#a0a9cf] text-5xl xl:text-6xl tracking-wide font-extralight'>LINHA DE PRODUTOS</h1>
+            <h1 className='mt-20 xl:ml-24 ml-10 text-left text-[#a0a9cf] text-5xl xl:text-6xl tracking-wide font-extralight'>MÉDIA FORÇA E FORÇA</h1>
             <p className='mt-4 xl:ml-24 ml-10 text-left text-[#c2c8e4] text-lg font-normal'>Conheça os nossos produtos e descubra porque somos sinônimos de qualidade.</p>
 
             <div className='mx-auto max-w-6xl mt-0 sm:mt-14 grid grid-cols-1 gap-x-8 gap-y-0 sm:gap-y-16 sm:grid-cols-2 lg:grid-cols-3'>
@@ -185,9 +135,13 @@ const Produtos = () => {
                 ))}
             </div>
 
+            <div className='mt-4 sm:mt-10 flex justify-center'>
+                <a href='../' className='mt-4 mx-4 border-slate-300 border-2 sm:px-10 px-1 py-3 text-lg font-semibold text-slate-300 shadow-sm hover:text-[#041537] hover:bg-slate-300'>VER TODOS OS PRODUTOS <span aria-hidden='true'> &rarr;</span></a>
+            </div>
+
             <Footer />
         </div>
     )
 }
 
-export default Produtos
+export default MediaForcaEForca
