@@ -1,33 +1,43 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from './Header';
+import Banner from '../images/bannerContato.jpg'
 
 const Hero = () => {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
         //autoplay: true,
-        //autosplaySpeed: 50
+        //autosplaySpeed: 50,
+        /*appendDots: dots => (
+                <ul className=" ">{dots}</ul>
+        ),*/
+        customPaging: i => (
+            <button className="mt-10">
+                ●
+            </button>
+        ),
     };
-
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     return(
         <div className='overflow-hidden isolate'>
             <Header />
-            <div className="slider-container">
+            <div className="slider-container relative">
                 <Slider {...settings}>
                     <div>
-                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt=' ' className='h-full w-full object-cover' />
+                        <img src={Banner} alt=' ' className='opacity-25 h-full w-full' />
                     </div>
                     <div>
-                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt=' ' className='h-full w-full object-cover' />
+                        <img src={Banner} alt=' ' className='opacity-25 h-full w-full' />
+                    </div>
+                    <div>
+                        <img src={Banner} alt=' ' className='opacity-25 h-full w-full' />
                     </div>
                 </Slider>
             </div>

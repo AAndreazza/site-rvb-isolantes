@@ -26,7 +26,7 @@ const PaginaContato = () => {
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
                                         </svg>
                                     </dt>
-                                    <dd> <a class="hover:text-white" href="https://maps.app.goo.gl/WoEcTAMKSreeGiar7" target='_blank'>R. Gustavo Zimmermann, 3300 - Itoupava Central <br /> Blumenau, SC - 89062-101</a></dd>
+                                    <dd> <a class="hover:text-white" href="https://maps.app.goo.gl/WoEcTAMKSreeGiar7" target='_blank' rel="noreferrer">R. Gustavo Zimmermann, 3300 - Itoupava Central <br /> Blumenau, SC - 89062-101</a></dd>
                                 </div>
                                 <div class="flex gap-x-4">
                                     <dt class="flex-none">
@@ -66,33 +66,23 @@ const PaginaContato = () => {
                             <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                 <div>
                                     <label for="nome" class="block text-sm font-semibold leading-6 text-white">NOME</label>
-                                    <div class="mt-2.5">
-                                        <input type="text" name="nome" id="nome" autocomplete="given-name" class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-                                    </div>
+                                    <input type="text" name="nome" id="nome" class=" mt-2.5 block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <div>
                                     <label for="telefone" class="block text-sm font-semibold leading-6 text-white">TELEFONE</label>
-                                    <div class="mt-2.5">
-                                        <input type="tel" name="telefone" id="telefone" autocomplete="tel" class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-                                    </div>
+                                    <input type="tel" name="telefone" id="telefone" class="mt-2.5 block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <div class="sm:col-span-2">
                                     <label for="email" class="block text-sm font-semibold leading-6 text-white">EMAIL</label>
-                                    <div class="mt-2.5">
-                                        <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-                                    </div>
+                                    <input type="email" name="email" id="email" class="mt-2.5 block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <div class="sm:col-span-2">
                                     <label for="assunto" class="block text-sm font-semibold leading-6 text-white">ASSUNTO</label>
-                                    <div class="mt-2.5">
-                                        <input type="text" name="assunto" id="assunto" class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
-                                    </div>
+                                    <input type="text" name="assunto" id="assunto" class="mt-2.5 block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" />
                                 </div>
                                 <div class="sm:col-span-2">
                                     <label for="mensagem" class="block text-sm font-semibold leading-6 text-white">MENSAGEM</label>
-                                    <div class="mt-2.5">
-                                        <textarea name="mensagem" id="mensagem" rows="4" class="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
-                                    </div>
+                                        <textarea name="mensagem" id="mensagem" rows="4" class="mt-2.5 block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"></textarea>
                                 </div>
                             </div>
 
