@@ -3,7 +3,7 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P21 from '../../images/produtos/P21SetorAnelSetorCapaMoldado/P1.jpg'
+import P21 from '../../images/produtos/P21SetorAnelSetorCapaMoldado/P1.JPG'
 
 const conteudos = [
     {

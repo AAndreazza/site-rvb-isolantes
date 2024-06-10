@@ -3,13 +3,12 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P6 from '../../images/produtos/P6CalcosMadeiraComum/P1.jpg'
+import P6 from '../../images/produtos/P6CalcosMadeiraComum/P1.JPG'
 import P10 from '../../images/produtos/P10CilindrosDistribuicaoEMeiaForca/P1.jpg'
-import P14 from '../../images/produtos/P14Espaguete/P1.jpg'
-import P15 from '../../images/produtos/P15EstecasTalasDistribuicaoEMeiaForca/P1.jpg'
-import P19 from '../../images/produtos/P19PapeisRolo/P1.jpg'
-import P22 from '../../images/produtos/P22SuporteLigacao/P1.jpg'
-
+import P14 from '../../images/produtos/P14Espaguete/P1.JPG'
+import P15 from '../../images/produtos/P15EstecasTalasDistribuicaoEMeiaForca/P1.JPG'
+import P19 from '../../images/produtos/P19PapeisRolo/P1.JPG'
+import P22 from '../../images/produtos/P22SuporteLigacao/P1.JPG'
 
 const conteudos = [
     {

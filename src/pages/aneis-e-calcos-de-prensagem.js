@@ -6,9 +6,9 @@ import Banner from '../images/bannerProduto.jpg'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
-import P1 from '../images/produtos/P1AneisCalcosPrensagem/P1.jpg'
+import P1 from '../images/produtos/P1AneisCalcosPrensagem/P1.JPG'
 import P2 from '../images/produtos/P1AneisCalcosPrensagem/P2.jpg'
-import P3 from '../images/produtos/P1AneisCalcosPrensagem/P3.jpg'
+import P3 from '../images/produtos/P1AneisCalcosPrensagem/P3.JPG'
 import P4 from '../images/produtos/P1AneisCalcosPrensagem/P4.jpg'
 
 const settings = {
