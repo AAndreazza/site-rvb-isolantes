@@ -1,12 +1,13 @@
 import React from 'react'
-import P6 from '../../images/p6.jpg'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
+import P5 from '../../images/produtos/P5BlindagemEletrostatica/P1.jpg'
+
 const conteudos = [
     {
-        imagem: P6,
+        imagem: P5,
         nome: 'BLINDAGEM ELETROSTÁTICA',
         descricao: 'Fabricamos blindagens eletrostáticas, para transformadores de grande e pequeno porte. São blindagens feitas em cobre isolado,…',
         slug: '/teste6'

@@ -3,39 +3,47 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
+import P6 from '../../images/produtos/P6CalcosMadeiraComum/P1.jpg'
+import P10 from '../../images/produtos/P10CilindrosDistribuicaoEMeiaForca/P1.jpg'
+import P14 from '../../images/produtos/P14Espaguete/P1.jpg'
+import P15 from '../../images/produtos/P15EstecasTalasDistribuicaoEMeiaForca/P1.jpg'
+import P19 from '../../images/produtos/P19PapeisRolo/P1.jpg'
+import P22 from '../../images/produtos/P22SuporteLigacao/P1.jpg'
+
+
 const conteudos = [
     {
-        imagem: '',
+        imagem: P6,
         nome: 'CALÇOS DE MADEIRA COMUM',
         descricao: 'Fabricamos também diversos materiais em madeira densificada ou madeira comum (Angelin), utilizados em transformadores de pequeno…',
         slug: '/teste5'
     },
     {
-        imagem: '',
+        imagem: P10,
         nome: 'CILINDROS DE DISTRIBUIÇÃO E MEIA FORÇA',
         descricao: 'Fabricamos cilindros para transformadores de pequeno porte, para núcleos enrolado e empilhado. Temos cilindros planos, com…',
         slug: '/teste5'
     },
     {
-        imagem: '',
+        imagem: P14,
         nome: 'ESPAGUETE',
         descricao: 'Fabricamos também itens específicos, como espaguetes isolantes ou canudos, em diversos diâmetros, espessuras de papel e…',
         slug: '/teste5'
     },
     {
-        imagem: '',
+        imagem: P15,
         nome: 'ESTECAS / TALAS DE DISTRIBUIÇÃO E MEIA FORÇA',
         descricao: 'Fabricamos diferentes tipos de estecas / talas para transformadores de pequeno porte. Estecas em papelões de média densidade,…',
         slug: '/teste5'
     },
     {
-        imagem: '',
+        imagem: P19,
         nome: 'PAPÉIS EM ROLO',
         descricao: 'Trabalhamos com estoque de dois tipos de papéis, kraft neutro e diamantado termoestabilizado. Em diversas espessuras…',
         slug: '/teste5'
     },
     {
-        imagem: '',
+        imagem: P22,
         nome: 'SUPORTE DE LIGAÇÃO',
         descricao: 'Fabricamos diversos tipos de materiais isolantes que compõe os transformadores de pequeno porte, como cabeceiras, suportes…',
         slug: '/teste5'
