@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import Logo from '../images/logoAzul2.jpg'
 
-const Header = () => {
+const HeaderProduto = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     return (
@@ -30,11 +30,11 @@ const Header = () => {
                 </div>
                 <div className='hidden lg:flex lg:gap-x-14'>
                     <Link to='/' className='text-xl font-normal leading-6 text-gray-200'>Home</Link>
-                    <Link to='../empresa' className='text-xl font-normal leading-6 text-gray-200'>Empresa</Link>
-                    <Link to='../empresa' className='text-xl font-normal leading-6 text-gray-200'>Políticas</Link>
-                    <Link to='../produtos' className='text-xl font-normal leading-6 text-gray-200'>Produtos</Link>
-                    <Link to='../contato' className='text-xl font-normal leading-6 text-gray-200'>Contato</Link>
-                    <Link to='../blog' className='text-xl font-normal leading-6 text-gray-200'>Blog</Link>
+                    <Link to='../../empresa' className='text-xl font-normal leading-6 text-gray-200'>Empresa</Link>
+                    <Link to='../../empresa' className='text-xl font-normal leading-6 text-gray-200'>Políticas</Link>
+                    <Link to='../' className='text-xl font-normal leading-6 text-gray-200'>Produtos</Link>
+                    <Link to='../../contato' className='text-xl font-normal leading-6 text-gray-200'>Contato</Link>
+                    <Link to='../../blog' className='text-xl font-normal leading-6 text-gray-200'>Blog</Link>
                 </div>
 
             </nav>
@@ -65,11 +65,11 @@ const Header = () => {
                         <div className='-my-6 divide-y divide-gray-500/10'>
                             <div className='space-y-2 py-6'>
                                 <Link to='/' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Home</button></Link>
-                                <Link to='../empresa' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Empresa</button></Link>
-                                <Link to='../empresa' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Políticas</button></Link>
-                                <Link to='../produtos' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Produtos</button></Link>
-                                <Link to='../contato' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
-                                <Link to='../blog' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Blog</button></Link>
+                                <Link to='../../empresa' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Empresa</button></Link>
+                                <Link to='../../empresa' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Políticas</button></Link>
+                                <Link to='../' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Produtos</button></Link>
+                                <Link to='../../contato' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Contato</button></Link>
+                                <Link to='../../blog' className='-mx-3 block rounded-lg px-3 py-2 text-xl font-light leading-7 text-gray-200 hover:bg-gray-50'><button onClick={() => setIsSidebarOpen(false)}>Blog</button></Link>
                             </div>
                         </div>
                     </div>
@@ -79,4 +79,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default HeaderProduto

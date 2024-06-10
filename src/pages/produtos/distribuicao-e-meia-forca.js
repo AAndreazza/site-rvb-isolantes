@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../components/Header'
+import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
@@ -58,7 +58,7 @@ const DistribuicaoMeiaForca = () => {
                 <img src={Banner} alt='mesa com papéis' className='opacity-25 absolute inset-0 h-full w-full object-cover' />
                 <h2 className='mt-10 mx-auto text-center font-montserrat text-3xl sm:text-7xl tracking-widest font-bold text-[#e4d5e7]'>PRODUTOS</h2>
                 <p className='mt-4 mx-auto text-center font-montserrat text-base sm:text-3xl font-bold text-[#e4d5e7]'>DISTRIBUIÇÃO E MEIA FORÇA</p>
-                <Header></Header>
+                <HeaderProdutos />
             </div>
 
             <h1 className='mt-20 xl:ml-24 ml-10 text-left text-[#a0a9cf] text-5xl xl:text-6xl tracking-wide font-extralight'>DISTRIBUIÇÃO E MEIA FORÇA</h1>

@@ -13,7 +13,7 @@ const conteudos = [
         imagem: P1,
         nome: "ANÉIS E CALÇOS DE PRENSAGEM",
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo. Fabricamos todos os isolamentos de tirante,…',
-        slug: '/teste1',
+        slug: '../aneis-e-calcos-de-prensagem',
     },
     {
         imagem: P2,
