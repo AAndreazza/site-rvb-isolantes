@@ -49,7 +49,7 @@ const Moldados = () => {
                 ))}
             </div>
 
-            <div className='mt-4 sm:mt-10 flex justify-center'>
+            <div className='mt-4 sm:mt-10 flex justify-center mb-10 sm:mb-16'>
                 <a href='../' className='mt-4 mx-4 border-slate-300 border-2 sm:px-10 px-1 py-3 text-lg font-semibold text-slate-300 shadow-sm hover:text-[#041537] hover:bg-slate-300'>VER TODOS OS PRODUTOS <span aria-hidden='true'> &rarr;</span></a>
             </div>
 

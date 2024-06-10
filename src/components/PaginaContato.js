@@ -14,7 +14,7 @@ const PaginaContato = () => {
 
             <div class="relative isolate -mt-12 sm:-mt-20">
                 <div class="mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-2">
-                    <div class="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+                    <div class="relative px-6 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
                         <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
                             <h2 class="ml-1 text-5xl font-bold text-[#2f4c86]">ENTRE EM CONTATO</h2>
                             <h2 class="-mt-24 sm:-mt-12 text-5xl font-bold text-gray-300">ENTRE EM CONTATO</h2>
@@ -89,7 +89,7 @@ const PaginaContato = () => {
                             <input type='hidden' name='_next' value='https://escobencontabilidade.netlify.app/' />
                             <input type='hidden' name='_captcha' value='false' />
 
-                            <div class="mt-8 flex justify-end">
+                            <div class="mt-8 flex justify-end mb-10 sm:mb-0">
                                 <button type="submit" class="rounded-md bg-[#4b6caf] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">ENVIAR MENSAGEM</button>
                             </div>
                         </div>

@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
-import Logo from '../images/logoAzul2.jpg'
+import Logo from '../images/logo1.png'
 
 const HeaderProduto = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     return (
-        <header className='absolute inset-x-0 top-0 z-50'>
+        <header className='absolute inset-x-0 -top-8 z-50'>
             <nav className='flex items-center justify-between p-5 lg:px-8' aria-label='Global'>
                 <div className='flex lg:flex-1'>
                     <Link to='/' className='-m-1.5 p-1.5'>
                         <span className='sr-only'>RVB Isolantes para transformadores</span>
-                        <img className='h-10 w-10 lg:h-20 lg:w-20' src={Logo} alt='Logo' />
+                        <img className='h-20 w-20 lg:h-36 lg:w-36' src={Logo} alt='Logo' />
                     </Link>
                 </div>
 

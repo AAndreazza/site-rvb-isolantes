@@ -2,7 +2,7 @@ import React from 'react'
 
 const PoliticasEmpresa = () => {
     return (
-        <div class="isolate">
+        <div class="isolate -mt-8 sm:mt-0">
 
             <div class="relative isolate -z-10">
                 <div class="overflow-hidden">
@@ -132,7 +132,7 @@ const PoliticasEmpresa = () => {
                 </div>
             </div>
 
-            <div class="mt-10 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8">
+            <div class="mt-10 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8  mb-10 sm:mb-16">
                 <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80" alt="" class="aspect-[5/2] w-full object-cover xl:rounded-xl" />
             </div>
 

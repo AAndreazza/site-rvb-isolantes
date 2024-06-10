@@ -46,19 +46,19 @@ const P1AneisCalcosPrensagem = () => {
             </div>
 
             <nav className="mt-20 mx-2 sm:mx-40 isolate flex flex-wrap divide-x divide-gray-300 rounded-lg shadow" aria-label="Tabs">
-                <a href="../produtos/blindagem-eletrostatica" className="group relative min-w-0 flex-1 overflow-hidden rounded-l-lg bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-600 hover:bg-gray-50 focus:z-10">
+                <a href="../produtos/blindagem-eletrostatica" className="group relative min-w-0 flex-1 overflow-hidden rounded-l-lg bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-800 hover:bg-gray-300 hover:text-gray-800 focus:z-10">
                     <span>Blindagem Eletrostática</span>
                     <span aria-hidden="true" className="absolute inset-x-0 bottom-0 h-0.5 bg-transparent"></span>
                 </a>
-                <a href="../produtos/distribuicao-e-meia-forca" className="group relative min-w-0 flex-1 overflow-hidden bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-700 focus:z-10">
+                <a href="../produtos/distribuicao-e-meia-forca" className="group relative min-w-0 flex-1 overflow-hidden bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-800 hover:bg-gray-300 hover:text-gray-800 focus:z-10">
                     <span>Distribuição e Meia Força</span>
                     <span aria-hidden="true" className="absolute inset-x-0 bottom-0 h-0.5 bg-transparent"></span>
                 </a>
-                <a href="../produtos/media-forca-e-forca" className="group relative min-w-0 flex-1 overflow-hidden bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-gray-700 focus:z-10">
+                <a href="../produtos/media-forca-e-forca" className="group relative min-w-0 flex-1 overflow-hidden bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-900 hover:bg-gray-300 hover:text-gray-800 focus:z-10">
                     <span>Média Força e Força</span>
                     <span aria-hidden="true" className="absolute inset-x-0 bottom-0 h-1 bg-[#5384df]"></span>
                 </a>
-                <a href="../produtos/moldados" className="group relative min-w-0 flex-1 overflow-hidden rounded-r-lg bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-700 focus:z-10">
+                <a href="../produtos/moldados" className="group relative min-w-0 flex-1 overflow-hidden rounded-r-lg bg-gray-100 px-2 py-2 sm:px-4 sm:py-4 text-center text-sm sm:text-base font-medium text-gray-800 hover:bg-gray-300 hover:text-gray-800 focus:z-10">
                     <span>Moldados</span>
                     <span aria-hidden="true" className="absolute inset-x-0 bottom-0 h-0.5 bg-transparent"></span>
                 </a>

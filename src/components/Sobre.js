@@ -34,7 +34,7 @@ const Sobre = () => {
                         <p class="mt-6 text-base leading-7 font-semibold indent-5 text-[#041537]">A RVB Isolantes para transformadores LTDA é uma empresa que foi <b>fundada em 1994</b>, localizada no município de Blumenau, em Santa Catarina. A empresa surgiu com a terceirização do setor de isolantes, fabricado internamente na WEG.</p>
                         <p class="mt-6 text-base leading-7 font-semibold indent-5 text-[#041537]">Desde sua fundação, teve como objetivo principal o <b>fornecimento de materiais isolantes</b>, em um primeiro momento apenas em madeira de lei. Atualmente trabalha com materiais fabricados em papelões de alta densidade, em madeira desificada, fenolite, papéis neutros, diamantados termoestabilizados, Nomex® anéis metalizados, blindagens, dentre outros.</p>
                         <div class="mt-8 flex justify-center">
-                            <a href="#" class="inline-flex rounded-md bg-[#041537] px-3.5 py-2.5 text-lg font-semibold text-slate-100 shadow-sm hover:bg-[#242f5f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">CONHEÇA AS NOSSAS POLÍTICAS</a>
+                            <a href="../empresa" class="inline-flex rounded-md bg-[#041537] px-3.5 py-2.5 text-lg font-semibold text-slate-100 shadow-sm hover:bg-[#242f5f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">CONHEÇA AS NOSSAS POLÍTICAS</a>
                         </div>
                     </div>
                 </div>
