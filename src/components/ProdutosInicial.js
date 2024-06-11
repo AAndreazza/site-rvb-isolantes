@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
 const conteudos = [
@@ -50,7 +51,7 @@ const ProdutosInicial = () => {
                     <div className='bg-slate-200 drop-shadow-xl mt-12 sm:mt-0 mx-8 sm:mx-0'>
 
                         <a href={conteudo.slug} target='blank'>
-                            <img className='aspect-[3/2] w-full object-cover' src={conteudo.imagem} alt='imagem' />
+                            <StaticImage className='aspect-[3/2] w-full object-cover' src={conteudo.imagem} alt='imagem' />
                             <h3 className='mt-6 text-center text-lg font-bold leading-6 text-[#041537]'>{conteudo.nome}</h3>
                             <p className='mt-4 mx-4 text-center text-sm leading-6 text-[#041537]'>{conteudo.descricao}</p>
                         </a>
