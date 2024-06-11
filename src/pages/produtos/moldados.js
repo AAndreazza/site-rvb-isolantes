@@ -3,11 +3,9 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P21 from '../../images/produtos/P21SetorAnelSetorCapaMoldado/P1.JPG'
-
 const conteudos = [
     {
-        imagem: P21,
+        imagem: '../../images/produtos/P21SetorAnelSetorCapaMoldado/P1.JPG',
         nome: 'SETOR ANEL E SETOR CAPA MOLDADO',
         descricao: 'Este é o texto do setor anel e setor capa moldado do cadastro de produtos',
         slug: '/teste5'

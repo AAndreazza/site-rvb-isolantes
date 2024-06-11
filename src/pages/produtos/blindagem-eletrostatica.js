@@ -3,11 +3,9 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P5 from '../../images/produtos/P5BlindagemEletrostatica/P1.jpg'
-
 const conteudos = [
     {
-        imagem: P5,
+        imagem: '../../images/produtos/P5BlindagemEletrostatica/P1.jpg',
         nome: 'BLINDAGEM ELETROSTÁTICA',
         descricao: 'Fabricamos blindagens eletrostáticas, para transformadores de grande e pequeno porte. São blindagens feitas em cobre isolado,…',
         slug: '/teste6'

@@ -6,11 +6,6 @@ import Banner from '../images/bannerProduto.jpg'
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 
-import P1 from '../images/produtos/P1AneisCalcosPrensagem/P1.JPG'
-import P2 from '../images/produtos/P1AneisCalcosPrensagem/P2.jpg'
-import P3 from '../images/produtos/P1AneisCalcosPrensagem/P3.JPG'
-import P4 from '../images/produtos/P1AneisCalcosPrensagem/P4.jpg'
-
 const settings = {
     infinite: true,
     speed: 500,
@@ -23,10 +18,10 @@ const settings = {
 
 const conteudo = [
     {
-        img1: P1,
-        img2: P2,
-        img3: P3,
-        img4: P4,
+        img1: '../images/produtos/P1AneisCalcosPrensagem/P1.JPG',
+        img2: '../images/produtos/P1AneisCalcosPrensagem/P2.jpg',
+        img3: '../images/produtos/P1AneisCalcosPrensagem/P3.JPG',
+        img4: '../images/produtos/P1AneisCalcosPrensagem/P4.jpg',
         nome: "ANÉIS E CALÇOS DE PRENSAGEM",
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo. Fabricamos todos os isolamentos de tirante, isolamentos para armadura, para coluna, isolamentos para travessa. Fabricamos canais de resfriamento, calços de prensagem, calços do núcleo ou calços escadinha, e anéis de prensagem superiores e inferiores.',
     }

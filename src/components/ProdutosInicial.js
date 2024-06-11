@@ -1,46 +1,38 @@
 import React from 'react'
 
-import P1 from '../images/produtos/P1AneisCalcosPrensagem/P1.jpg'
-import P2 from '../images/produtos/P2AnelPresspann/P1.jpg'
-import P3 from '../images/produtos/P3AnelEquipotencial/P1.jpg'
-import P4 from '../images/produtos/P4BasePresspanMadeiraDensificadaFenolite/P1.jpg'
-import P17 from '../images/produtos/P17KitsBobina/P1.jpg'
-import P5 from '../images/produtos/P5BlindagemEletrostatica/P1.jpg'
-
-
 const conteudos = [
     {
-        imagem: P1,
+        imagem: '../images/produtos/P1AneisCalcosPrensagem/P1.jpg',
         nome: "ANÉIS E CALÇOS DE PRENSAGEM",
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo. Fabricamos todos os isolamentos de tirante,…',
         slug: '../aneis-e-calcos-de-prensagem',
     },
     {
-        imagem: P2,
+        imagem: '../images/produtos/P2AnelPresspann/P1.jpg',
         nome: 'ANEL DE PRESSPANN',
         descricao: 'Recortamos anéis em papelão, conforme diâmetros especificados pelos clientes. Anéis com arredondamento nos cantos, execução…',
         slug: '/teste2'
     },
     {
-        imagem: P3,
+        imagem: '../images/produtos/P3AnelEquipotencial/P1.jpg',
         nome: 'ANEL EQUIPOTENCIAL',
         descricao: 'Fabricamos anéis equipotenciais (estáticos) com alma em madeira densificada ou em papelão colado. Ambos os casos seguem…',
         slug: '/teste3'
     },
     {
-        imagem: P4,
+        imagem: '../images/produtos/P4BasePresspanMadeiraDensificadaFenolite/P1.jpg',
         nome: 'BASE DE PRESSPAN COM MADEIRA DENSIFICADA E FENOLITE',
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo…',
         slug: '/teste4'
     },
     {
-        imagem: P17,
+        imagem: '../images/produtos/P17KitsBobina/P1.jpg',
         nome: 'KITS DE BOBINA',
         descricao: 'Realizamos a montagem completa do kit isolante. Tratamento e colagem do cilindro conforme especificação do cliente, alinhamento…',
         slug: '/teste5'
     },
     {
-        imagem: P5,
+        imagem: '../images/produtos/P5BlindagemEletrostatica/P1.jpg',
         nome: 'BLINDAGEM ELETROSTÁTICA',
         descricao: 'Fabricamos blindagens eletrostáticas, para transformadores de grande e pequeno porte. São blindagens feitas em cobre isolado,…',
         slug: '/teste6'

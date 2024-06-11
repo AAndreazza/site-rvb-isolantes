@@ -3,109 +3,93 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P1 from '../../images/produtos/P1AneisCalcosPrensagem/P1.JPG'
-import P2 from '../../images/produtos/P2AnelPresspann/P1.jpg'
-import P3 from '../../images/produtos/P3AnelEquipotencial/P1.jpg'
-import P4 from '../../images/produtos/P4BasePresspanMadeiraDensificadaFenolite/P1.JPG'
-import P7 from '../../images/produtos/P7CalcosPresspan/P1.JPG'
-import P8 from '../../images/produtos/P8CalcosNucleoMadeiraDensificada/P1.JPG'
-import P9 from '../../images/produtos/P9CilindrosBobinagem/P1.JPG'
-import P11 from '../../images/produtos/P11DetalhamentoSuporte/P1.JPG'
-import P12 from '../../images/produtos/P12EnchimentoCalandrado/P1.JPG'
-import P13 from '../../images/produtos/P13Espacadores/P1.JPG'
-import P16 from '../../images/produtos/P16EstecasTalasForcaEMediaForça/P1.JPG'
-import P17 from '../../images/produtos/P17KitsBobina/P1.jpg'
-import P18 from '../../images/produtos/P18MateriaisDiversos/P1.JPG'
-import P20 from '../../images/produtos/P20ProtecaoPassagem/P1.JPG'
-import P23 from '../../images/produtos/P23ZigZag/P1.jpg'
-
 const conteudos = [
     {
-        imagem: P1,
+        imagem: '../../images/produtos/P1AneisCalcosPrensagem/P1.JPG',
         nome: "ANÉIS E CALÇOS DE PRENSAGEM",
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo. Fabricamos todos os isolamentos de tirante,…',
         slug: '../../aneis-e-calcos-de-prensagem',
     },
     {
-        imagem: P2,
+        imagem: '../../images/produtos/P2AnelPresspann/P1.jpg',
         nome: 'ANEL DE PRESSPANN',
         descricao: 'Recortamos anéis em papelão, conforme diâmetros especificados pelos clientes. Anéis com arredondamento nos cantos, execução…',
         slug: '/teste2'
     },
     {
-        imagem: P3,
+        imagem: '../../images/produtos/P3AnelEquipotencial/P1.jpg',
         nome: 'ANEL EQUIPOTENCIAL',
         descricao: 'Fabricamos anéis equipotenciais (estáticos) com alma em madeira densificada ou em papelão colado. Ambos os casos seguem…',
         slug: '/teste3'
     },
     {
-        imagem: P4,
+        imagem: '../../images/produtos/P4BasePresspanMadeiraDensificadaFenolite/P1.JPG',
         nome: 'BASE DE PRESSPAN COM MADEIRA DENSIFICADA E FENOLITE',
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo…',
         slug: '/teste4'
     },
     {
-        imagem: P7,
+        imagem: '../../images/produtos/P7CalcosPresspan/P1.JPG',
         nome: 'CALÇOS DE PRESSPAN',
         descricao: 'Os calços são fabricados em papelão de média ou alta densidade, incluindo a execução de detalhes como raios para encaixe…',
         slug: '/teste5'
     },
     {
-        imagem: P8,
+        imagem: '../../images/produtos/P8CalcosNucleoMadeiraDensificada/P1.JPG',
         nome: 'CALÇOS DO NÚCLEO MADEIRA DENSIFICADA',
         descricao: 'Fabricamos toda a parte de materiais utilizados no isolamento e montagem do núcleo. Fabricamos todos os isolamentos de tirante,…',
         slug: '/teste5'
     },
     {
-        imagem: P9,
+        imagem: '../../images/produtos/P9CilindrosBobinagem/P1.JPG',
         nome: 'CILINDROS DE BOBINAGEM',
         descricao: 'Temos uma estrutura montada para fabricação de cilindros, sendo cilindros base de bobina, montagens de bloco, cilindros…',
         slug: '/teste5'
     },
     {
-        imagem: P11,
+        imagem: '../../images/produtos/P11DetalhamentoSuporte/P1.JPG',
         nome: 'DETALHAMENTO DE SUPORTE',
         descricao: 'Fabricamos réguas para suportes de ligação em madeira densificada. Réguas de sustentação, componentes, peças usinadas…',
         slug: '/teste5'
     },
     {
-        imagem: P12,
+        imagem: '../../images/produtos/P12EnchimentoCalandrado/P1.JPG',
         nome: 'ENCHIMENTO CALANDRADO',
         descricao: 'Enchimentos calandrados, ou cabeceiras calandradas feitos com várias chapas de papelão moldado, colados com caseína, com…',
         slug: '/teste5'
     },
     {
-        imagem: P13,
+        imagem: '../../images/produtos/P13Espacadores/P1.JPG',
         nome: 'ESPAÇADORES',
         descricao: 'Fabricamos espaçadores para bobinas, que se encaixam nas estecas tipo T. Fabricamos espaçadores lisos, nas espessuras de…',
         slug: '/teste5'
     },
     {
-        imagem: P16,
+        imagem: '../../images/produtos/P16EstecasTalasForcaEMediaForça/P1.JPG',
         nome: 'ESTECAS / TALAS DE FORÇA E MÉDIA FORÇA',
         descricao: 'Fabricamos estecas, talas para bobinas, para montagem dos enrolamentos, para materiais de núcleo. Temos como largura…',
         slug: '/teste5'
     },
     {
-        imagem: P17,
+        imagem: '../../images/produtos/P17KitsBobina/P1.jpg',
         nome: 'KITS DE BOBINA',
         descricao: 'Realizamos a montagem completa do kit isolante. Tratamento e colagem do cilindro conforme especificação do cliente, alinhamento…',
         slug: '/teste5'
     },
     {
-        imagem: P18,
+        imagem: '../../images/produtos/P18MateriaisDiversos/P1.JPG',
         nome: 'MATERIAIS DIVERSOS',
         descricao: 'Fabricamos diversos materiais em madeira densificada, madeira comum (Angelin), Fenolite e papelão de média densidade e de alta…',
         slug: '/teste5'
     },
     {
-        imagem: P20,
+        imagem: '../../images/produtos/P20ProtecaoPassagem/P1.JPG',
         nome: 'PROTEÇÃO DE PASSAGEM',
         descricao: 'Normalmente fabricadas em papelão de 1mm ou papel em 0,50mm de espessura, porém temos disponibilidade de fabricação em…',
         slug: '/teste5'
     },
     {
-        imagem: P23,
+        imagem: '../../images/produtos/P23ZigZag/P1.jpg',
         nome: 'ZIG-ZAG',
         descricao: 'Fabricamos anéis zig-zag, ou guias de óleo, em papelão de alta e média densidade, poliéster e em Nomex ®. Este material…',
         slug: '/teste5'

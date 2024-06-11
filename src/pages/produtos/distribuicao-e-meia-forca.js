@@ -3,46 +3,39 @@ import HeaderProdutos from '../../components/HeaderProdutos'
 import Footer from '../../components/Footer'
 import Banner from '../../images/bannerProduto.jpg'
 
-import P6 from '../../images/produtos/P6CalcosMadeiraComum/P1.JPG'
-import P10 from '../../images/produtos/P10CilindrosDistribuicaoEMeiaForca/P1.jpg'
-import P14 from '../../images/produtos/P14Espaguete/P1.JPG'
-import P15 from '../../images/produtos/P15EstecasTalasDistribuicaoEMeiaForca/P1.JPG'
-import P19 from '../../images/produtos/P19PapeisRolo/P1.JPG'
-import P22 from '../../images/produtos/P22SuporteLigacao/P1.JPG'
-
 const conteudos = [
     {
-        imagem: P6,
+        imagem: '../../images/produtos/P6CalcosMadeiraComum/P1.JPG',
         nome: 'CALÇOS DE MADEIRA COMUM',
         descricao: 'Fabricamos também diversos materiais em madeira densificada ou madeira comum (Angelin), utilizados em transformadores de pequeno…',
         slug: '/teste5'
     },
     {
-        imagem: P10,
+        imagem: '../../images/produtos/P10CilindrosDistribuicaoEMeiaForca/P1.jpg',
         nome: 'CILINDROS DE DISTRIBUIÇÃO E MEIA FORÇA',
         descricao: 'Fabricamos cilindros para transformadores de pequeno porte, para núcleos enrolado e empilhado. Temos cilindros planos, com…',
         slug: '/teste5'
     },
     {
-        imagem: P14,
+        imagem: '../../images/produtos/P14Espaguete/P1.JPG',
         nome: 'ESPAGUETE',
         descricao: 'Fabricamos também itens específicos, como espaguetes isolantes ou canudos, em diversos diâmetros, espessuras de papel e…',
         slug: '/teste5'
     },
     {
-        imagem: P15,
+        imagem: '../../images/produtos/P15EstecasTalasDistribuicaoEMeiaForca/P1.JPG',
         nome: 'ESTECAS / TALAS DE DISTRIBUIÇÃO E MEIA FORÇA',
         descricao: 'Fabricamos diferentes tipos de estecas / talas para transformadores de pequeno porte. Estecas em papelões de média densidade,…',
         slug: '/teste5'
     },
     {
-        imagem: P19,
+        imagem: '../../images/produtos/P19PapeisRolo/P1.JPG',
         nome: 'PAPÉIS EM ROLO',
         descricao: 'Trabalhamos com estoque de dois tipos de papéis, kraft neutro e diamantado termoestabilizado. Em diversas espessuras…',
         slug: '/teste5'
     },
     {
-        imagem: P22,
+        imagem: '../../images/produtos/P22SuporteLigacao/P1.JPG',
         nome: 'SUPORTE DE LIGAÇÃO',
         descricao: 'Fabricamos diversos tipos de materiais isolantes que compõe os transformadores de pequeno porte, como cabeceiras, suportes…',
         slug: '/teste5'
